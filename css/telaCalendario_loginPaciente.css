@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0px;
+    gap: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header{
+    background-color: #1275BB;
+    color: #F2F2F2;
+    display: flex;
+}
+
+#iconeELocal{
+    display: flex;
+    width: 200px;
+}
+
+
+#btn{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #1275BB;
+}
+
+#calendarioDinamico{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.tituloCalendarioCol{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background-color: #1275BB;
+    border-radius: 10px;
+}
+
+.boxCalendario{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+#legenda{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    height: 50px;
+    width: 500px;
+    gap: 10px;
+    padding: 15px 10px;
+}
+
+#divisoriaLegenda{
+    display: flex;
+}
+
+#boxExameLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+#boxConfPresLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #EECB5A;
+    border-radius: 10px;
+}
+
+#boxTeleconsultaLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #D20000;
+    border-radius: 10px;
+}
+
+#boxConsultaPresencialLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #93D200;
+    border-radius: 10px;    
+}
+

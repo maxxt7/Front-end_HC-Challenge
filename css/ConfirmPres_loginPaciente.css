@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #1275BB;
+    color: #F2F2F2;
+    display: flex;
+    
+}
+
+.iconeELocal{
+    display: flex;
+    width: 350px;
+}
+
+#btn{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #1275BB;
+}
+
+#iconeELocal{
+    display: flex;
+}
+
+.boxClassCalendario{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#aviso{
+    display: flex;
+    gap: 15px;
+}
+
+.btn{
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    border: 2px solid  #00A9AA;
+    background-color: white;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #00A9AA;
+}
+
+#avisoCliqueAqui{
+    border: 2px solid black;
+    display: flex;
+}
