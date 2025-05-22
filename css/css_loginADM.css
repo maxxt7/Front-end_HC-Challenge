@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerADM{
+    background-color: #E91B47;
+    color: #F2F2F2;
+    display: flex;
+}
+
+#bodypart1ADM{
+    display: flex;
+}
+
+.mainAvisosADM{
+    margin: 10px 10% ;
+    border: 2px solid #E91B47;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+.iconeELocal{
+    display: flex;
+    width: 200px;
+}
+
+#btnEnvioADM{
+    border-radius: 20px;
+    background-color: #E91B47;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+#btnADM{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #E91B47;
+}
+
+.mainBtnADM{
+    border: 1px solid #E91B47;
+    border-radius: 20px;
+}
+
+.planilhaBtnADM{
+    border: 1px solid #E91B47;
+    border-radius: 20px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+br{
+    width: 95%;
+    align-items: center;
+    border: 10px 0 0 0;
+    border-color: #A9A8A8;
+    border-radius: 20px;
+}
+
+#aviso{
+    display: flex;
+    gap: 15px;
+}
+
+footer{
+    background-color: #D9D9D9;
+}
+
+.escritaUsuario{
+    background-color: #F2F2F2;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.btnAjudaADM{
+    border-radius: 20px;
+    display: flex;
+
+    width: 300px;
+    background-color: #D9D9D9;
+}
+
+.btnInvisivelADM{
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.btnPadraoADM{
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    border: 2px solid  #00A9AA;
+    background-color: white;
+}
+
+
+#avisoCliqueAqui{
+    border: 2px solid #FBCCCC;
+    display: flex;
+}
+
+#calendarioDinamico{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.tituloCalendarioCol{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background-color: #E91B47;
+    border-radius: 10px;
+}
+
+.boxCalendario{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+#legenda{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    height: 50px;
+    width: 500px;
+    gap: 10px;
+    padding: 15px 10px;
+}
+
+#divisoriaLegenda{
+    display: flex;
+}
+
+#boxExameLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+#boxConfPresLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #EECB5A;
+    border-radius: 10px;
+}
+
+#boxTeleconsultaLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #D20000;
+    border-radius: 10px;
+}
+
+#boxConsultaPresencialLegenda{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #93D200;
+    border-radius: 10px;    
+}

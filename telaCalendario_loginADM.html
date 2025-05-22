@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telaCalendario_loginPaciente</title>
+    <link rel="stylesheet" href="css/css_loginADM.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="headerADM">
+            <button id="btnADM">
+                <div>
+                    <a href="telaPrincipal_LogimADM.html"><img src="img/ImgArrowBackGoogle.png" alt="Botão para retornar"></a>
+                </div>
+            </button>
+            <div class="iconeELocal">
+                <img src="img//ImgCalendarioGoogle.png" alt="ícone calendário">
+
+                <div id="localAtual">
+                    <h3>Calendário</h3>
+                    
+                </div>
+            </div>
+            <button id="btnADM">
+                <div>
+                    <img src="img/ImgMenuGoogle.png" alt="Botão de menu opções">
+                </div>
+            </button>
+        </div>
+
+        <main>
+            <form name="meses" id="formMeses">
+                <label>           
+                        <select name="meses"> 
+                        <option value="MÊS" selected>MÊS</option>
+                        <option value="Janeiro">Janeiro</option>
+                        <option value="Fevereiro">Fevereiro</option>
+                        <option value="Março">Março</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Maio">Maio</option>
+                        <option value="Junho">Junho</option>
+                        <option value="Julho">Julho</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Setembro">Setembro</option>
+                        <option value="Outubro">Outubro</option>
+                        <option value="Novembro">Novembro</option>
+                        <option value="Dezembro">Dezembro</option>
+                    </select>
+                </label>
+            </form>
+            <form name="anos" id="formAnos">
+                <label>           
+                        <select name="2025"> 
+                        <option value="" selected>2025</option>
+                    </select>
+                </label>
+            </form>
+
+            <nav id="calendarioDinamico">
+                <div id="calendarioCol1">
+                    <div class="tituloCalendarioCol"><H1>Seg</H1></div>
+                    <br>
+                    <div id="1seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="2seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="3seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="4seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="5seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="6seg">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                </div>
+                <div id="calendarioCol2">
+                    <div class="tituloCalendarioCol"><H1>Ter</H1></div>
+                    <br>
+                    <div id="1ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="2ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="3ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="4ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="5ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="6ter">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                </div>
+                <div id="calendarioCol3">
+                    <div class="tituloCalendarioCol"><H1>Qua</H1></div>
+                    <br>
+                    <div id="1qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="2qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="3qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="4qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="5qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="6qua">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>                    
+                </div>
+                <div id="calendarioCol4">
+                    <div class="tituloCalendarioCol"><H1>Qui</H1></div>
+                    <br>
+                    <div id="1qui"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="2qui"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="3qui"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="4qui"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="5qui"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="6qui"><div class="boxCalendario"></div></div>
+                    <br>                    
+                </div>
+                <div id="calendarioCol5">
+                    <div class="tituloCalendarioCol"><H1>Sex</H1></div>
+                    <br>
+                    <div id="1sex"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="2sex"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="3sex"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="4sex"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="5sex"><div class="boxCalendario"></div></div>
+                    <br>
+                    <div id="6sex"><div class="boxCalendario"></div></div>
+                    <br>                    
+                </div>
+                <div id="calendarioCol6">
+                    <div class="tituloCalendarioCol"><H1>Sab</H1></div>
+                    <br>
+                    <div id="1sab">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="2sab">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="3sab">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="4sab">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="5sab">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="6sab">
+                        <div class="boxCalendario"></div>
+                    </div>                    
+                    <br>
+                </div>
+                <div id="calendarioCol7">
+                    <div class="tituloCalendarioCol"><H1>Dom</H1></div>
+                    <br>
+                    <div id="1dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="2dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="3dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="4dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="5dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>
+                    <div id="6dom">
+                        <div class="boxCalendario"></div>
+                    </div>
+                    <br>                    
+                </div>
+            </nav>
+            <br>
+            <h4>Selecione uma data para adicionar/ editar / excluir um compromisso.</h4>
+            <br>
+            <h3>Legenda:</h3>
+                <div id="legenda">
+                    <div id="divisoriaLegenda">
+                        <div id="boxExameLegenda">
+                        </div>
+                        <h6>Exame</h6>
+                    </div>
+                    <div id="divisoriaLegenda">
+                        <div id="boxConfPresLegenda">
+                        </div>
+                        <h6>Confirmaçao de Presença</h6>
+                    </div>
+                    <div id="divisoriaLegenda">
+                        <div id="boxTeleconsultaLegenda">
+                        </div>
+                        <h6>Teleconsulta</h6>
+                    </div>
+                    <div id="divisoriaLegenda">
+                        <div id="boxConsultaPresencialLegenda">
+                        </div>
+                        <h6>Consulta Presencial</h6>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+        </main>
+        <footer>
+
+
+        </footer>
+    </div>
+</body>
+</html>

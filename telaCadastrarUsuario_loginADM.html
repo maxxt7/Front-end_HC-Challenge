@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telaCarregatAgendamentos</title>
+    <link rel="stylesheet" href="css/css_loginADM.css">
+</head>
+<body>
+    <div id="wrapper">
+            <div class="headerADM">
+                <button id="btnADM">
+                    <div>
+                        <a href="/telaPrincipal_LogimADM.html"><img src="img/ImgArrowBackGoogle.png" alt="Botão para retornar"></a>
+                    </div>
+                </button>
+                <div class="iconeELocal">
+                    <img src="img/ImgAccoutCircleGoogle.png" alt="foto do chatbot">
+
+                    <div id="localAtual">
+                        <h3>Cadastrar</h3>
+                        <div>
+                            <h5>Usuário</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <button id="btnADM">
+                    <div>
+                        <img src="img/ImgMenuGoogle.png" alt="Botão de menu opções">
+                    </div>
+                </button>
+            </div>
+            <main>
+                
+                <div id="TituloCadastrosADM">
+                    <h1>Cadastro</h1>
+                </div>
+
+                <form method="get">
+                    <label>Tipo de Cadastro:
+                        <select name="tipoDeCadastro" required>
+                            <option value="">Médico</option>
+                            <option value="">Paciente</option>
+                            <option value="Adm"></option>
+                        </select>
+                    </label>
+
+                    <label>Digite o primeiro nome
+                        <input type="text" name="firstName" required>
+                    </label>
+
+                    <label>Digite o sobrenome
+                        <input type="text" name="lastName" required>
+                    </label>
+
+                    <label>Celular
+                        <input type="text" name="celular" required>
+                    </label>
+
+                    <label>Digite o email
+                        <input type="text" name="email" required>
+                    </label>
+
+                    <label>Confirme o email
+                        <input type="text" name="confirmEmail" required>
+                    </label>
+
+                    <label>Digite senha inicial
+                        <input type="password" name="senha" required >
+                    </label>
+
+                    <label>Confirme senha inicial
+                        <input type="password" name="confirmSenha" required>
+                    </label>
+
+                    <label>CRM
+                        <input type="text" name="CRM" required>
+                    </label>
+
+                    <label>Nivel Permissão
+                        <select name="nenhum"> 
+                        <option value="medico" selected>Médico</option>
+                        <option value="adm" >Adm</option>
+                        <option value="paciente" >Adm</option>
+                    </select>
+                </label>
+                </form>
+
+                <button class="btnPadraoADM"><a href="https://meet.google.com/landing?pli=1"><div id="botaoAzul"><h1>CONFIRMAR</h1></div></a></button>
+            </main>
+                
+    </div>
+</body>
+</html>

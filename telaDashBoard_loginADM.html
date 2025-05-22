@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telaDashBoard_loginADM</title>
+    <link rel="stylesheet" href="css/css_loginADM.css">
+</head>
+<body>
+    <div id="wrapperADM">
+        <div class="headerADM">
+            <button id="btnADM">
+                <div>
+                    <a href="telaPrincipal_LogimADM.html"><img src="img/ImgArrowBackGoogle.png" alt="Botão para retornar"></a>
+                </div>
+            </button>
+            <div class="iconeELocal">
+                <img src="img/ImgDashboardGoogle.png" alt="ícone cashboard">
+
+                <div id="localAtualADM">
+                    <h3>Dashboard</h3>
+                    
+                </div>
+            </div>
+            <button id="btnADM">
+                <div>
+                    <img src="img/ImgMenuGoogle.png" alt="Botão de menu opções">
+                </div>
+            </button>
+        </div>
+
+        <main>
+            <div id="bodypart1ADM">
+                <form method="get">
+                    <label>Tipo
+                        <select name="tipo de consulta" required>
+                            <option value="">Presencial</option>
+                            <option value="">Teleconsulta</option>
+                        </select>
+                    </label>
+
+                    <label for="dataInicio">Data de início:</label>
+                    <input type="date" name="dataInicio" id="dataInicio" tabindex="2" accesskey="s" max="2025-12-30"
+                    min="2025-05-23">
+
+                    <label for="dataFim">Data Fim:</label>
+                    <input type="date" name="dataFim" id="dataFim" tabindex="2" accesskey="s" max="2025-12-30"
+                    min="2025-05-23">
+
+                    <label>Médico/Terapeuta
+                        <select name="medicoTerapeuta" required>
+                            <option value="">Todos</option>
+                            <option value="">Dr. Felipe Araujo</option>
+                        </select>
+                    </label>
+                </form>    
+            </div>
+                <img src="/img/Dashboard.PNG" alt="imagem Dashboard">
+            
+        </main>
+    </div>
+</body>
+</html>
