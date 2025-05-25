@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/css_loginADM.css">
 </head>
 <body>
-    <div id="wrapper">
+    <!-- <div id="wrapper">
             <div class="headerADM">
                 <button id="btnADM">
                     <div>
@@ -90,6 +90,89 @@
                 <button class="btnPadraoADM"><a href="https://meet.google.com/landing?pli=1"><div id="botaoAzul"><h1>CONFIRMAR</h1></div></a></button>
             </main>
                 
+    </div> -->
+
+<div id="wrapper">
+        <header>
+            <button id="btn">
+                <div>
+                    <a href="telaPrincipal_LogimADM.html"><img src="img/ImgArrowBackGoogle.png" alt="Botão para retornar"></a>
+                </div>
+            </button>
+            <div class="iconeELocal">
+                <img src="img/ImgUsuarioPerfilGoogle.png" alt="ícone Cadastro Usuário">
+
+                <div id="localAtual">
+                    <h3>Cadastro</h3>
+                    <div>
+                        <h5>Cadastre um tipo de usuário</h5>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div id="menusHeader">
+                <a href="/contato.html"><h4>Contato</h4></a>
+                <a href="telaAjuda_loginADM.html"><h4>Ajuda</h4></a>
+                <a href=""><h4>Relatar Problema</h4></a>
+                <a href="/index.html"><h4>Sair</h4></a>
+            </div>
+        <main>
+            <div id="displayForms">
+                <form method="get">
+                    <label>Tipo de Cadastro:
+                        <select name="tipoDeCadastro" required>
+                            <option value="default">Selecione...</option>
+                            <option value="medico">Médico</option>
+                            <option value="paciente">Paciente</option>
+                            <option value="adm">Administrador</option>
+                        </select>
+                    </label>
+
+                    <label>Digite o primeiro nome:
+                        <input type="text" name="firstName" required>
+                    </label>
+
+                    <label>Digite o sobrenome:
+                        <input type="text" name="lastName" required>
+                    </label>
+
+                    <label>Celular:
+                        <input type="text" name="celular" required>
+                    </label>
+
+                    <label>Digite o email:
+                        <input type="text" name="email" required>
+                    </label>
+
+                    <label>Confirme o email:
+                        <input type="text" name="confirmEmail" required>
+                    </label>
+
+                    <label>Digite senha inicial:
+                        <input type="password" name="senha" required >
+                    </label>
+
+                    <label>Confirme senha inicial:
+                        <input type="password" name="confirmSenha" required>
+                    </label>
+    
+                    <label>Número de referência
+                        <input type="text" name="CRM" required>
+                    </label>
+
+
+                </form>
+
+                <a href=""><button class="btnPadrao"><h1>Concluir</h1></button></a>
+            </div>
+            
+            
+
+        </main>
+        <footer>
+
+
+        </footer>
     </div>
 </body>
 </html>

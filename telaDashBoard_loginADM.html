@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/css_loginADM.css">
 </head>
 <body>
-    <div id="wrapperADM">
+    <!-- <div id="wrapperADM">
         <div class="headerADM">
             <button id="btnADM">
                 <div>
@@ -15,7 +15,7 @@
                 </div>
             </button>
             <div class="iconeELocal">
-                <img src="img/ImgDashboardGoogle.png" alt="ícone cashboard">
+                <img src="img/ImgDashboardGoogle.png" alt="ícone dashboard">
 
                 <div id="localAtualADM">
                     <h3>Dashboard</h3>
@@ -58,6 +58,69 @@
                 <img src="/img/Dashboard.PNG" alt="imagem Dashboard">
             
         </main>
+    </div> -->
+
+    <div id="wrapper">
+        <header>
+            <button id="btn">
+                <div>
+                    <a href="telaPrincipal_LogimADM.html"><img src="img/ImgArrowBackGoogle.png" alt="Botão para retornar"></a>
+                </div>
+            </button>
+
+            <div class="iconeELocal">
+                <img src="img/ImgDashboardGoogle.png" alt="ícone dashboard">
+
+                <div id="localAtualADM">
+                    <h3>Dashboard</h3>
+                    <div>
+                        <h5>Relatórios</h5>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div id="menusHeader">
+                <a href="/contato.html"><h4>Contato</h4></a>
+                <a href="telaAjuda_loginADM.html"><h4>Ajuda</h4></a>
+                <a href=""><h4>Relatar Problema</h4></a>
+                <a href="/index.html"><h4>Sair</h4></a>
+            </div>
+        <main>
+            <div id="navDashboard">
+                <div id="bodypart1ADM">
+                    <div id="displayForms">
+                        <form method="get">
+                            <label>Tipo:
+                                <select name="tipo de consulta" required>
+                                    <option value="">Consulta Presencial</option>
+                                    <option value="">Teleconsulta</option>
+                                </select>
+                            </label>
+                            <br>
+                            <label for="dataInicio">Data de início:</label>
+                            <input type="date" name="dataInicio" id="dataInicio" tabindex="2" accesskey="s" max="2025-12-30"
+                            min="2025-05-23">
+                            <br>
+                            <label for="dataFim">Data Fim:</label>
+                            <input type="date" name="dataFim" id="dataFim" tabindex="2" accesskey="s" max="2025-12-30"
+                            min="2025-05-23">
+                            <br>
+                            <label>Médico/Terapeuta:
+                                <select name="medicoTerapeuta" required>
+                                    <option value="">Todos</option>
+                                    <option value="">Dr. Felipe Araujo</option>
+                                </select>
+                            </label>
+                        </form>  
+                    </div>
+                </div>
+                    
+                        <img id="imgDashboard" src="/img/Dashboard.PNG" alt="imagem Dashboard">
+                    
+            </div>
+        </main>
+        <footer>
+        </footer>
     </div>
 </body>
 </html>
